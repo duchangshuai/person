@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>个人主页</title>
+        <meta name="description" content="Here goes the description">
+        <meta name="author" content="author name">
+
+        <!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+        <!--[if lt IE 9]>
+                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        
+        
+    </head>
+    <body class="background-theme">
+        <div class="theme-bg"></div>
+
+        <!-- MAIN MENU -->
+        <ul id="main-menu" class="main-menu hidden">
+            <li class="menu-item menu-black">
+                <a href="#*"><i class="icon menu sprite"></i></a>
+            </li>
+            <li class="menu-item menu-red">
+                <a href="#profile-tab"><i class="icon profile sprite"></i></a>
+            </li>
+            <li class="menu-item menu-keppel">
+                <a href="#resume-tab"><i class="icon resume sprite"></i></a>
+            </li>
+            <li class="menu-item menu-yellow">
+                <a href="#portfolio-tab"><i class="icon portfolio sprite"></i></a>
+            </li>
+            <li class="menu-item menu-blue">
+                <a href="#contact-tab"><i class="icon contact sprite"></i></a>
+            </li>
+        </ul>
+
+        <div id="scroll-top" class="scroll-top hidden">
+            <a href="#">
+                <i class="scroll-icon sprite"></i>
+                <b>Top</b>
+            </a>
+        </div>
+
+        <!-- MAIN CONTAINER -->
+        <div class="container">
+            <div class="fourteen columns offset-by-one">
+                <div class="main-content">                    
+                    <div class="wrapper clearfix">
+
+                        <!-- SOCIAL ICONS -->
+                        <ul class="social-icons" id="top-social">
+                            <li class="item twitter">
+                                <a href="#"><img class="icon" src="img/social/twitter.png" alt=""/></a>
+                            </li>
+                            <li class="item facebook">
+                                <a href="#"><img class="icon" src="img/social/facebook.png" alt=""/></a>
+                            </li>
+                            <li class="item dribble">
+                                <a href="#"><img class="icon" src="img/social/dribbble.png" alt=""/></a>
+                            </li>
+                            <li class="item vimeo">
+                                <a href="#"><img class="icon" src="img/social/vimeo.png" alt=""/></a>
+                            </li>
+                            <li class="item linkedin">
+                                <a href="#"><img class="icon" src="img/social/linkedin.png" alt=""/></a>
+                            </li>
+                            <li class="item skype">
+                                <a href="#"><img class="icon" src="img/social/skype.png" alt=""/></a>
+                            </li>
+                            <li class="item google">
+                                <a href="#"><img class="icon" src="img/social/google.png" alt=""/></a>
+                            </li>
+                        </ul>
+
+                        <!-- PROFILE TAB -->
+                        <div id="profile-tab" class="tab-wrapper">
+
+                            <!-- VISIBLE TAB HEADER -->
+                            <section class="tab">
+                                <div class="tab-header tab-red tab-trigger alighleft">
+                                    <div class="tab-icon alighleft">
+                                        <i class="icon profile sprite"></i>
+                                    </div>
+                                    <div class="tab-text alighleft">                                    
+                                        <h4 class="title">基本信息</h4>
+                                    </div>
+                                    <div class="arrow alighleft"></div>
+                                </div>
+                                <i class="tab-collapse tab-trigger sprite alignright"></i>
+                            </section>
+
+                            <!-- TAB DROPDOWN INNER CONTENT -->
+                            <div class="tab-content">
+                                <div class="content-wrapper twelve columns offset-by-one alpha">
+                                    <section class="content-inner clearfix">
+
+                                        <!-- PROFILE BOX -->
+                                        <div class="five columns alpha">
+                                            <div class="clearfix">
+                                                <h2 class="primary-heading">杜昌帅</h2>
+                                                <h3 class="secondary-heading">前端工程师</h3>
+                                                <figure class="profile-picture three columns alpha">
+                                                    <img src="img/1.png" alt=""/>
+                                                </figure>
+                                            </div>
+                                        </div>
+
+                                        <!-- ABOUT ME BOX -->
+                                        <div class="seven columns omega">
+                                            <div class="clearfix">
+                                                <h2 class="primary-heading">About Me</h2>
+                                                <p>
+                                                    我是一个有着2年工作经验的前端工程师，对于前端的一些技能都非常熟练，对项目的开发有着丰富的工作经验，同时我的逻辑思维能力很强，实现了个人博客系统的项目，善于和他沟通，抗压能力强。我这个人有个缺点就是喜欢熬夜，但是从来不会影响第二天的工作。
+                                                    <br><br>目前，我正在寻找一个适合自己的发展平台，希望在发挥自己价值的同时可以再进行学习新的技术，在前端工程师的道路上越走越远。
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <!-- SERVICES BOX -->
+                                        <div class="twelve columns alpha omega">
+                                            <div class="tab-services">                                                
+                                                <h2 class="primary-heading">工作项目</h2>
+                                                <ul class="services-list clearfix">
+
+                                                    <li class="two columns service-item alpha">
+                                                        <div class="icon-wrapper">
+                                                            <figure class="service-icon">
+                                                                <img src="img/2.png" alt=""/>
+                                                            </figure>
+                                                        </div>
+                                                        <h5 class="tertiary-heading">打字游戏</h5>
+                                                        <!-- <p class="service-description">这是我自己写的一款打字游戏，能提高你的手速，增强打代码的手速</p> -->
+                                                    </li>
+                                                    <li class="two columns service-item">
+                                                        <div class="icon-wrapper">
+                                                            <figure class="service-icon">
+                                                                <img src="img/3.png" alt=""/>
+                                                            </figure>
+                                                        </div>
+                                                        <h5 class="tertiary-heading">贪吃蛇</h5>
+                                                        <!-- <p class="service-description">这是我在自己写的一个休闲类的游戏</p> -->
+                                                    </li>
+                                                    <li class="two columns service-item">
+                                                        <div class="icon-wrapper">
+                                                            <figure class="service-icon">
+                                                                <img src="img/4.png" alt=""/>
+                                                            </figure>
+                                                        </div>
+                                                        <h5 class="tertiary-heading">艾买提</h5>
+                                                        <!-- <p class="service-description">Praesent pellentesque id sapien ut fermentum. In ut ipsum sapien. Donec et faucibus sapien. Nam vitae eleifend dolor, at fringilla metus.</p> -->
+                                                    </li>
+                                                    <li class="two columns service-item">
+                                                        <div class="icon-wrapper">
+                                                            <figure class="service-icon">
+                                                                <img src="img/5.png" alt=""/>
+                                                            </figure>
+                                                        </div>
+                                                        <h5 class="tertiary-heading">车网互联</h5>
+                                                        <!-- <p class="service-description">Praesent pellentesque id sapien ut fermentum. In ut ipsum sapien. Donec et faucibus sapien. Nam vitae eleifend dolor, at fringilla metus.</p> -->
+                                                    </li>
+                                                    <li class="two columns service-item">
+                                                        <div class="icon-wrapper">
+                                                            <figure class="service-icon">
+                                                                <img src="img/6.png" alt=""/>
+                                                            </figure>
+                                                        </div>
+                                                        <h5 class="tertiary-heading">个人博客</h5>
+                                                        <!-- <p class="service-description">Praesent pellentesque id sapien ut fermentum. In ut ipsum sapien. Donec et faucibus sapien. Nam vitae eleifend dolor, at fringilla metus.</p> -->
+                                                    </li>
+                                                    <li class="two columns service-item omega">
+                                                        <div class="icon-wrapper">
+                                                            <figure class="service-icon">
+                                                                <img src="img/7.png" alt=""/>
+                                                            </figure>
+                                                        </div>
+                                                        <h5 class="tertiary-heading">赛车管理整站</h5>
+                                                        <!-- <p class="service-description">Praesent pellentesque id sapien ut fermentum. In ut ipsum sapien. Donec et faucibus sapien. Nam vitae eleifend dolor, at fringilla metus.</p> -->
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <!-- /TAB DROPDOWN INNER CONTENT  -->
+
+                            <i class="tab-collapse tab-trigger icon-close sprite"></i>
+                            <div class="arrow-down"></div>
+                        </div>
+                        <!-- /PROFILE TAB -->
+
+                        <!-- RESUME TAB -->
+                        <div id="resume-tab" class="tab-wrapper">
+
+                            <!-- VISIBLE TAB HEADER -->
+                            <section class="tab">
+                                <div class="tab-header tab-keppel tab-trigger alighleft">
+                                    <div class="tab-icon alighleft">
+                                        <i class="icon resume sprite"></i>
+                                    </div>
+                                    <div class="tab-text alighleft">                                    
+                                        <h4 class="title">个人简历</h4>
+                                    </div>
+                                    <div class="arrow alighleft"></div>
+                                </div>
+                                <i class="tab-collapse tab-trigger sprite alignright"></i>
+                                <!-- <div class="download-resume">
+                                    <a href="#">
+                                        <b class="text">Download vCard</b>
+                                        <i class="icon sprite"></i>
+                                    </a>
+                                </div> -->
+                            </section>
+
+                            <!-- TAB DROPDOWN INNER CONTENT -->
+                            <div class="tab-content">
+                                <div class="content-wrapper twelve columns offset-by-one alpha">
+                                    <section class="content-inner clearfix">
+
+                                        <!-- HISTORY BOX -->
+                                        <div class="five columns alpha">
+                                            <div class="resume-history">
+                                                <h3 class="secondary-heading">项目经验</h3>
+                                                <ul class="history-list clearfix">
+
+                                                    <li class="item four columns offset-by-one alpha">
+                                                        <i class="indicator"></i>
+                                                        <div class="main-info clearfix">
+                                                            <!-- <h5 class="tertiary-heading title alighleft">前端工程师</h5> -->
+                                                            <!-- <h6 class="dates alignright">2010 - 2013</h6> -->
+                                                        </div>
+                                                        <!-- <h6 class="meta-info">Job Position</h6> -->
+                                                        <p class="description">
+                                                            负责设计和开发项目，网站的功能策划和需求分析；参与了我们团队的项目，包括设计制作功能架构图，网站数十个页面的设计与编写代码，前端与后端以及系统管理员的交接，进度的跟进和时间的安排，服务器的监控
+                                                        </p>
+                                                    </li>
+
+                                                    <li class="item four columns offset-by-one alpha">
+                                                        <i class="indicator"></i>
+                                                        <div class="main-info clearfix">
+                                                           <!--  <h5 class="tertiary-heading title alighleft">Job Name</h5>
+                                                            <h6 class="dates alignright">2010 - 2013</h6> -->
+                                                        </div>
+                                                        <h6 class="meta-info">前端工程师</h6>
+                                                        <p class="description">
+                                                           在这里做过电商类的网站，因为目前该项目还在研发中，我就自己做了类似这种电商类的网站，如银泰网、京东商场，用html和css写布局，jQuery实现动效；还有做过俩套整站，晟朗博通服务有限公司和艾买提新疆整站，能熟练使用phpcms的功能，熟悉它的一整套的流程；在一个大型项目中用php实现了新闻发布系统和个人博客系统，会用php语句连接数据库。
+                                                        </p>
+                                                    </li>
+
+                                                    <!-- <li class="item four columns offset-by-one alpha">
+                                                        <i class="indicator"></i>
+                                                        <div class="main-info clearfix">
+                                                            <h5 class="tertiary-heading title alighleft">Job Name</h5>
+                                                            <h6 class="dates alignright">2010 - 2013</h6>
+                                                        </div>
+                                                        <h6 class="meta-info">Job Position</h6>
+                                                        <p class="description">
+                                                            Sed in viverra felis, semper laoreet eros. Nunc urna diam, lacinia sed varius vitae, posuere eu nunc. Vestibulum a turpis vulputate, volutpat mauris nec.
+                                                        </p>
+                                                    </li> -->
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- EDUCATION BOX -->
+                                        <div class="five columns omega offset-by-one">
+                                            <div class="resume-history">
+                                                <h3 class="secondary-heading">教育背景</h3>
+                                                <ul class="history-list clearfix">
+
+                                                    <li class="item four columns offset-by-one alpha">
+                                                        <i class="indicator"></i>
+                                                        <div class="main-info clearfix">
+                                                            <h5 class="tertiary-heading title alighleft">吕梁学院</h5>
+                                                            <!-- <h6 class="dates alignright">2010 - 2013</h6> -->
+                                                        </div>
+                                                        <h6 class="meta-info">本科毕业</h6>
+                                                        <p class="description">
+                                                            在校学习成绩优异,参加过多次实践活动
+                                                            参加过国家举办的计算机等级考试,并通过计算机四级考试
+                                                            获得前端认证的ACAA证书
+                                                        </p>
+                                                    </li>
+
+                                                    <li class="item four columns offset-by-one alpha">
+                                                        <i class="indicator"></i>
+                                                        <div class="main-info clearfix">
+                                                            <h5 class="tertiary-heading title alighleft">我的兴趣</h5>
+                                                            <!-- <h6 class="dates alignright">2010 - 2013</h6> -->
+                                                        </div>
+                                                        <!-- <h6 class="meta-info">Job Position</h6> -->
+                                                        <p class="description">
+                                                            喜欢听音乐，在音乐中能使人放松，能静静的思考
+                                                            喜欢跑步，打羽毛球
+                                                        </p>
+                                                    </li>
+
+                                                    <li class="item four columns offset-by-one alpha">
+                                                        <i class="indicator"></i>
+                                                        <div class="main-info clearfix">
+                                                            <h5 class="tertiary-heading title alighleft">自我评价</h5>
+                                                            <!-- <h6 class="dates alignright">2010 - 2013</h6> -->
+                                                        </div>
+                                                        <!-- <h6 class="meta-info">Job Position</h6> -->
+                                                        <p class="description">
+                                                            我是一个活泼、外向的人，热爱生活，热爱工作的人，能认真的完成每一份工作，工作能力强，喜欢熬夜，但是不会影响第二天的工作
+                                                        </p>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- /HISTORY BOX -->
+
+                                        <!-- SKILLS BOX -->
+                                        <div class="twelve columns alpha omega">
+                                            <div class="tab-skills">
+                                                <h3 class="secondary-heading">职业技能</h3>
+
+                                                <!-- radial progress bar -->
+                                                <ul class="skills-list radial clearfix">
+                                                    <li class="item three columns alpha">
+                                                        <div class="skill-heading">
+                                                            <img class="icon" src="img/skill-1.png" alt=""/>
+                                                            <span class="name">Photoshop</span>
+                                                            <div class="skill-progress radial-progress">
+                                                                <!-- <input type="text" value="40" 
+                                                                       data-width="64" data-height="64"
+                                                                       data-readOnly=true data-thickness=".1"
+                                                                       data-displayInput=false
+                                                                       data-bgColor="#1b1e24" data-fgColor="#ffce54"
+                                                                       class="progress">
+                                                                <b class="value">40%</b> -->
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="item three columns alpha">
+                                                        <div class="skill-heading">
+                                                            <img class="icon" src="img/skill-2.png" alt=""/>
+                                                            <span class="name">Illustrator</span>
+                                                            <div class="skill-progress radial-progress">
+                                                                <!-- <input type="text" value="60" 
+                                                                       data-width="64" data-height="64"
+                                                                       data-readOnly=true data-thickness=".1"
+                                                                       data-displayInput=false
+                                                                       data-bgColor="#1b1e24" data-fgColor="#80cdff"
+                                                                       class="progress">
+                                                                <b class="value">60%</b> -->
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="item three columns alpha">
+                                                        <div class="skill-heading">
+                                                            <img class="icon" src="img/111.png" alt=""/>
+                                                            <span class="name">html5+css3</span>
+                                                            <div class="skill-progress radial-progress">
+                                                                <!-- <input type="text" value="80" 
+                                                                       data-width="64" data-height="64"
+                                                                       data-readOnly=true data-thickness=".1"
+                                                                       data-displayInput=false
+                                                                       data-bgColor="#1b1e24" data-fgColor="#fd6566"
+                                                                       class="progress">
+                                                                <b class="value">80%</b> -->
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="item three columns alpha">
+                                                        <div class="skill-heading">
+                                                            <img class="icon" src="img/222.png" alt=""/>
+                                                            <span class="name">php</span>
+                                                            <div class="skill-progress radial-progress">
+                                                                <!-- <input type="text" value="60" 
+                                                                       data-width="64" data-height="64"
+                                                                       data-readOnly=true data-thickness=".1"
+                                                                       data-displayInput=false
+                                                                       data-bgColor="#1b1e24" data-fgColor="#80cdff"
+                                                                       class="progress">
+                                                                <b class="value">60%</b> -->
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                                <!-- linear progress bar -->
+                                                <ul class="skills-list linear clearfix">
+                                                    <p>1.会熟练使用Photoshop、ai等软件进行工作；<br>
+2.熟练使用Html、Css、JavaScript和jQuery，能很快的写出自己想要的页面；<br>
+3.掌握ajax、php、phpcms等技能；<br>
+4.掌握html5、css3、angular和移动端开发技术；</p>
+                                                    <!-- <li class="item clearfix">
+                                                        <div class="skill-heading three columns alpha">
+                                                            <span class="name">Adobe Photoshop</span>
+                                                        </div>
+                                                        <div class="skill-progress linear-progress nine columns omega">
+                                                            <div class="progress-base eight columns alpha omega">
+                                                                <div class="progress-fill red" data-value="90"></div>
+                                                            </div>
+                                                            <div class="progress-value one columns omega">
+                                                                <small>90%</small>
+                                                                <b class="arrow-left"></b>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="item clearfix">
+                                                        <div class="skill-heading three columns alpha">
+                                                            <span class="name">Adobe Illustrator</span>
+                                                        </div>
+                                                        <div class="skill-progress linear-progress nine columns omega">
+                                                            <div class="progress-base eight columns alpha omega">
+                                                                <div class="progress-fill blue" data-value="80"></div>
+                                                            </div>
+                                                            <div class="progress-value one columns omega">
+                                                                <small>80%</small>
+                                                                <b class="arrow-left"></b>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="item clearfix">
+                                                        <div class="skill-heading three columns alpha">
+                                                            <span class="name">Adobe Flash</span>
+                                                        </div>
+                                                        <div class="skill-progress linear-progress nine columns omega">
+                                                            <div class="progress-base eight columns alpha omega">
+                                                                <div class="progress-fill green" data-value="70"></div>
+                                                            </div>
+                                                            <div class="progress-value one columns omega">
+                                                                <small>70%</small>
+                                                                <b class="arrow-left"></b>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="item clearfix">
+                                                        <div class="skill-heading three columns alpha">
+                                                            <span class="name">Adobe After Effects</span>
+                                                        </div>
+                                                        <div class="skill-progress linear-progress nine columns omega">
+                                                            <div class="progress-base eight columns alpha omega">
+                                                                <div class="progress-fill yellow" data-value="90"></div>
+                                                            </div>
+                                                            <div class="progress-value one columns omega">
+                                                                <small>90%</small>
+                                                                <b class="arrow-left"></b>
+                                                            </div>
+                                                        </div>
+                                                    </li> -->
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- /SKILLS BOX -->
+
+                                    </section>
+                                </div>
+                            </div>
+                            <!-- /TAB DROPDOWN INNER CONTENT  -->
+
+                            <i class="tab-collapse tab-trigger icon-close sprite"></i>
+                            <div class="arrow-down"></div>
+                        </div>
+                        <!-- /RESUME TAB -->
+
+                        <!-- PORTFOLIO TAB -->
+                        <div id="portfolio-tab" class="tab-wrapper">
+
+                            <!-- VISIBLE TAB HEADER -->
+                            <section class="tab">
+                                <div class="tab-header tab-yellow tab-trigger alighleft">
+                                    <div class="tab-icon alighleft">
+                                        <i class="icon portfolio sprite"></i>
+                                    </div>
+                                    <div class="tab-text alighleft">                                    
+                                        <h4 class="title">我的项目</h4>
+                                    </div>
+                                    <div class="arrow alighleft"></div>
+                                </div>
+                                <i class="tab-collapse tab-trigger sprite alignright"></i>
+                            </section>
+
+                            <!-- TAB DROPDOWN INNER CONTENT -->
+                            <div class="tab-content">
+                                <div class="content-wrapper twelve columns offset-by-one alpha">
+                                    <section class="content-inner clearfix">
+                                        <!--PORTFOLIO FILTERS  -->
+                                        <div class="twelve columns alpha omega">
+                                            <ul id="portfolio-filter" class="portfolio-filter clearfix">
+                                                <!-- <li class="item two columns"><a href="#" data-filter="*">Show All</a></li>
+                                                <li class="item two columns"><a href="#" data-filter=".graphic">Graphic</a></li>
+                                                <li class="item two columns"><a href="#" data-filter=".web">Web</a></li>
+                                                <li class="item two columns"><a href="#" data-filter=".3d">3D</a></li>
+                                                <li class="item two columns"><a href="#" data-filter=".print">Print</a></li> -->
+                                            </ul>
+                                            <div id="portfolio" class="isotope twelve columns alpha omega">
+                                                <div class="item 3d four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="img/01.jpg" alt="" width="220px" height="165px" />
+                                                            <figcaption>
+                                                                <h5 class="title">移动商场</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure>                                                        
+                                                    </a>
+                                                </div>
+                                                <div class="item 3d four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="img/02.gif" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">银泰商场</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure> 
+                                                    </a>
+                                                </div>
+                                                <div class="item print four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="img/03.jpg" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">Project Name</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure> 
+                                                    </a>
+                                                </div>
+                                                <div class="item web four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="img/04.jpg" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">Project Name</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure> 
+                                                    </a>
+                                                </div>                                                
+                                                <div class="item print four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="img/05.jpg" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">Project Name</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure> 
+                                                    </a>
+                                                </div>
+                                                <div class="item graphic four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="img/06.jpg" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">Project Name</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure>
+                                                    </a>
+                                                </div>
+                                                <div class="item web four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="img/07.jpg" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">Project Name</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure> 
+                                                    </a>
+                                                </div>
+                                                <div class="item graphic four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="img/08.jpg" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">Project Name</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure> 
+                                                    </a>
+                                                </div>
+                                                <div class="item web four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="img/09.jpg" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">Project Name</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure> 
+                                                    </a>
+                                                </div>
+                                                <div class="item graphic four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="http://www.placehold.it/220x165" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">Project Name</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure> 
+                                                    </a>
+                                                </div>
+                                                <div class="item 3d four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="http://www.placehold.it/220x165" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">Project Name</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure> 
+                                                    </a>
+                                                </div>
+                                                <div class="item print four columns alpha omega">
+                                                    <a class="portfolio-image" href="http://www.placehold.it/220x165">
+                                                        <figure>
+                                                            <img src="http://www.placehold.it/220x165" alt=""/>
+                                                            <figcaption>
+                                                                <h5 class="title">Project Name</h5>                                                                
+                                                                <i class="icon sprite"></i>
+                                                            </figcaption>
+                                                        </figure> 
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <nav class="portfolio-pagination twelve columns alpha omega">
+                                                <ul>
+                                                    <li><a href="#">1</a></li>
+                                                    <li><a href="#">2</a></li>
+                                                    <li><a href="#">3</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <!-- /TAB DROPDOWN INNER CONTENT  -->
+
+                            <i class="tab-collapse tab-trigger icon-close sprite"></i>
+                            <div class="arrow-down"></div>
+                        </div>
+                        <!-- /PORTFOLIO TAB -->
+
+                        <!-- CONTACT TAB -->
+                        <div id="contact-tab" class="tab-wrapper">
+
+                            <!-- VISIBLE TAB HEADER -->
+                            <section class="tab">
+                                <div class="tab-header tab-blue tab-trigger alighleft">
+                                    <div class="tab-icon alighleft">
+                                        <i class="icon contact sprite"></i>
+                                    </div>
+                                    <div class="tab-text alighleft">                                    
+                                        <h4 class="title">联系方式</h4>
+                                    </div>
+                                    <div class="arrow alighleft"></div>
+                                </div>
+                                <i class="tab-collapse tab-trigger sprite alignright"></i>
+                            </section>
+
+                            <!-- TAB DROPDOWN INNER CONTENT -->
+                            <div class="tab-content">
+                                <div class="content-wrapper twelve columns offset-by-one alpha">
+                                    <section class="content-inner clearfix">
+                                        <div class="contact-map twelve columns alpha omega">
+                                            <div><iframe width="700" height="300" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=San+Francisco,+CA,+United+States&amp;aq=0&amp;oq=san+fran&amp;sll=37.0625,-95.677068&amp;sspn=50.956929,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=San+Francisco,+California&amp;t=m&amp;z=12&amp;ll=37.77493,-122.419416&amp;output=embed"></iframe></div>
+                                        </div>
+                                        <div class="contact-info twelve columns alpha omega">
+                                            <div class="contact-form seven columns alpha">
+                                                <form action="#" method="get">
+                                                    <input type="text" name="name" placeholder="Name"/>
+                                                    <input type="text" name="subject" placeholder="Subject"/>
+                                                    <textarea name="message" placeholder="Message" rows="7"></textarea>
+                                                    <input type="submit" name="submit" value="Send"/>
+                                                </form>
+                                            </div>
+                                            <div class="contact-info four columns omega offset-by-one">
+                                                <ul class="contact-list">
+                                                    <li class="contact-item">
+                                                        <b>2020 NW 7th St,  Miami, FL 33125, USA</b>
+                                                    </li>
+                                                    <li class="contact-item">
+                                                        <b>email@email.com</b>
+                                                    </li>
+                                                    <li class="contact-item">
+                                                        <b>+ 123 456 789</b>
+                                                    </li>
+                                                </ul>
+                                                <!-- CONTACT SOCIAL ICONS -->
+                                                <ul class="social-icons">
+                                                    <li class="item twitter">
+                                                        <a href="#"><img class="icon" src="img/social/twitter.png" alt=""/></a>
+                                                    </li>
+                                                    <li class="item facebook">
+                                                        <a href="#"><img class="icon" src="img/social/facebook.png" alt=""/></a>
+                                                    </li>
+                                                    <li class="item dribble">
+                                                        <a href="#"><img class="icon" src="img/social/dribbble.png" alt=""/></a>
+                                                    </li>
+                                                    <li class="item vimeo">
+                                                        <a href="#"><img class="icon" src="img/social/vimeo.png" alt=""/></a>
+                                                    </li>
+                                                    <li class="item linkedin">
+                                                        <a href="#"><img class="icon" src="img/social/linkedin.png" alt=""/></a>
+                                                    </li>
+                                                    <li class="item skype">
+                                                        <a href="#"><img class="icon" src="img/social/skype.png" alt=""/></a>
+                                                    </li>
+                                                    <li class="item google">
+                                                        <a href="#"><img class="icon" src="img/social/google.png" alt=""/></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <!-- /TAB DROPDOWN INNER CONTENT  -->
+
+                            <i class="tab-collapse tab-trigger icon-close sprite"></i>
+                            <div class="arrow-down"></div>
+                        </div>
+                        <!-- /CONTACT TAB -->
+
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- /MAIN CONTAINER -->
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+        <script src="js/jquery.knob.js" type="text/javascript"></script>
+        <script src="fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>

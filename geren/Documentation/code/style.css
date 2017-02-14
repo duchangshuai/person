@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+	display: block;
+}
+
+.nomargin {
+	margin: 0 !important;
+}
+
+.rate {
+	width: 200px;
+	height: 40px;
+	border-radius: 6px;
+	background-color: #F6BB42;
+	color: #ffffff;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.rate:hover {
+	background-color: #E4A930;
+	transition: all 0.3s ease-in;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+	clear: both;
+	background: transparent;
+	display: block;
+}
+
+.templates {
+	width: 100%;
+	height: auto;
+	background-color: #f0f0f0;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 20px 0;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#logo {
+	float: left;
+	display: block;
+}
+
+#viewonline {
+	float: right;
+}
+
+.template {
+	width: 180px;
+	margin-right: 26px;
+	float: left;
+}
+
+.colorpicker {
+	margin: 0 auto;
+	height: 40px;
+	width: 105px;
+}
+
+.redbox {
+	width: 19px;
+	height: 19px;
+	display: block;
+	background-color: #e05f5f;
+	border: 1px solid #cd4e4e;
+	margin-right: 5px;
+	float: left;
+}
+
+.greenbox {
+	width: 19px;
+	height: 19px;
+	display: block;
+	background-color: #5eb356;
+	border: 1px solid #50a648;
+	margin-right: 5px;
+	float: left;
+}
+ /*
+#viewhover {
+	position: relative;
+	top: 70px;
+	left: 700px;
+	border-radius: 5px;
+	border: 1px solid #e7e7e7;
+	background-color: #666666;
+	width: 150px;
+	height: 100px;
+	visibility: hidden;
+}
+
+#viewhover p {
+	margin-top: -20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+}
+*/
+
+.bluebox {
+	width: 19px;
+	height: 19px;
+	display: block;
+	background-color: #60b0e8;
+	border: 1px solid #4f9cd3;
+	margin-right: 5px;
+	float: left;
+}
+
+.yellowbox {
+	width: 19px;
+	height: 19px;
+	display: block;
+	background-color: #e8bf19;
+	border: 1px solid #cda813;
+	float: left;
+}
+
+.purchase {
+	width: 220px;
+	height: 50px;
+	margin: 30px auto 0;
+	display: block;
+}
